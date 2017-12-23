@@ -8,14 +8,15 @@ Decrypts ciphered (with 3DES CBC) part of GSM 03.48 message.
 ## Installation (from source)
 
 First, install [Leiningen](https://leiningen.org/#install)
+
 Then,
 ```
 $ git clone https://github.com/brake/threedes-decryptor-clj.git
 $ cd threedes-decryptor-clj
 $ lein uberjar
 ```
-Finally you're ready to use `./target/uberjar/threedes-0.1.0-standalone.jar`
+Finally you're ready to use `./target/uberjar/threedes-<version>-standalone.jar`
 
 ## Usage
 
-$ java -jar threedes-0.1.0-standalone.jar `<3DES-key-hex>` `<Data-hex>`
+$ java -jar threedes-<version>-standalone.jar `<3DES-key-hex>` `<Data-hex>`
