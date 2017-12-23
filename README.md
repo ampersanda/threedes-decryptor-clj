@@ -19,4 +19,4 @@ Finally you're ready to use `./target/uberjar/threedes-<version>-standalone.jar`
 
 ## Usage
 
-$ java -jar threedes-<version>-standalone.jar `<3DES-key-hex>` `<Data-hex>`
+`$ java -jar threedes-<version>-standalone.jar` `<3DES-key-hex>` `<Data-hex>`
