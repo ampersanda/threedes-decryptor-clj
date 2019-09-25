@@ -21,6 +21,10 @@ Finally you're ready to use `./target/uberjar/threedes-<version>-standalone.jar`
 
 `$ java -jar threedes-<version>-standalone.jar` `<3DES-key-hex>` `<Data-hex>`
 
+## Notes
+
+If you want to use EBC instead CBC, change AlgoSpec and set IV empty
+
 ## Changes
 
 See [Changelog](https://github.com/brake/threedes-decryptor-clj/blob/master/CHANGELOG.md)
